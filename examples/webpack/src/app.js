@@ -51,7 +51,7 @@ $(document).ready(function () {
       url: 'http://localhost:3001/secured/ping',
       method: 'GET'
     }).then(function (data, textStatus, jqXHR) {
-      alert('The request to the secured enpoint was successfull');
+      alert('The request to the secured endpoint was successful');
     }, function () {
       alert('You need to download the server seed and start it to call this API');
     });
